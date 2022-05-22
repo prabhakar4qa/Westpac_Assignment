@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="84933" started-at="2021-07-18T20:51:47 NZST" finished-at="2021-07-18T20:53:12 NZST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@2b9627bc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="84933" started-at="2021-07-18T20:51:47 NZST" finished-at="2021-07-18T20:53:12 NZST">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="setUpClass" is-config="true" duration-ms="902" started-at="2021-07-18T20:51:47 NZST" finished-at="2021-07-18T20:51:48 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="beforeScenario" is-config="true" duration-ms="5" started-at="2021-07-18T20:51:48 NZST" finished-at="2021-07-18T20:51:48 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@2b9627bc]" name="runScenario" duration-ms="15308" started-at="2021-07-18T20:51:48 NZST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-18T20:52:03 NZST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to login with valid & in valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Buggy cars users login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="afterScenario" is-config="true" duration-ms="1482" started-at="2021-07-18T20:52:03 NZST" finished-at="2021-07-18T20:52:04 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method status="PASS" signature="beforeScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="beforeScenario" is-config="true" duration-ms="1" started-at="2021-07-18T20:52:04 NZST" finished-at="2021-07-18T20:52:04 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@2b9627bc]" name="runScenario" duration-ms="6651" started-at="2021-07-18T20:52:04 NZST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-18T20:52:11 NZST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to login with valid & in valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Buggy cars users login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="afterScenario" is-config="true" duration-ms="1625" started-at="2021-07-18T20:52:11 NZST" finished-at="2021-07-18T20:52:13 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method status="PASS" signature="beforeScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="beforeScenario" is-config="true" duration-ms="1" started-at="2021-07-18T20:52:13 NZST" finished-at="2021-07-18T20:52:13 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@2b9627bc]" name="runScenario" duration-ms="15297" started-at="2021-07-18T20:52:13 NZST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-18T20:52:28 NZST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to vote the popular model car"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Buggy Popular car features]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="afterScenario" is-config="true" duration-ms="1197" started-at="2021-07-18T20:52:28 NZST" finished-at="2021-07-18T20:52:29 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method status="PASS" signature="beforeScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="beforeScenario" is-config="true" duration-ms="1" started-at="2021-07-18T20:52:29 NZST" finished-at="2021-07-18T20:52:29 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@2b9627bc]" name="runScenario" duration-ms="15819" started-at="2021-07-18T20:52:29 NZST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-18T20:52:45 NZST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify each car model & make navigations form overall rating screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Buggy Popular car features]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="afterScenario" is-config="true" duration-ms="2276" started-at="2021-07-18T20:52:45 NZST" finished-at="2021-07-18T20:52:47 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method status="PASS" signature="beforeScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="beforeScenario" is-config="true" duration-ms="1" started-at="2021-07-18T20:52:47 NZST" finished-at="2021-07-18T20:52:47 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@2b9627bc]" name="runScenario" duration-ms="8632" started-at="2021-07-18T20:52:47 NZST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-18T20:52:56 NZST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify new user is able to complete the registration process"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Buggy Cars Registration]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="afterScenario" is-config="true" duration-ms="1816" started-at="2021-07-18T20:52:56 NZST" finished-at="2021-07-18T20:52:58 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method status="PASS" signature="beforeScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="beforeScenario" is-config="true" duration-ms="1" started-at="2021-07-18T20:52:58 NZST" finished-at="2021-07-18T20:52:58 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@2b9627bc]" name="runScenario" duration-ms="11988" started-at="2021-07-18T20:52:58 NZST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-18T20:53:10 NZST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to update the profile settings"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Buggy cars users profile]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterScenario()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="afterScenario" is-config="true" duration-ms="1248" started-at="2021-07-18T20:53:10 NZST" finished-at="2021-07-18T20:53:11 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@2b9627bc]" name="tearDownClass" is-config="true" duration-ms="603" started-at="2021-07-18T20:53:11 NZST" finished-at="2021-07-18T20:53:12 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
